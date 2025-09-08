@@ -14,6 +14,16 @@ body {
   font-size: 1.6rem;
 }
 
+.heading-lv1{
+  font-weight: 500;
+  font-size: 6rem;
+  line-height: 70px;
+}
+
+.text{
+  font-size: 1rem;
+}
+
 a {
   text-decoration: none;
   color: black;
@@ -21,6 +31,10 @@ a {
 
 .cta-btn {
   border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
 }
 
 .main-content {
@@ -37,6 +51,8 @@ header .body {
   justify-content: space-between;
   padding: 30px 0px;
   align-items: center;
+  z-index: 1;
+  background-color: #fff;
 }
 
 header.fixed {
@@ -56,10 +72,42 @@ header .cta-btn-group {
 }
 
 header .cta-btn-group .header-cta-btn {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 10px;
   width: 231px;
   height: 68px;
+}
+
+/* ======================================== book ============================================ */
+
+.book{
+  margin-top: 70px;
+}
+
+.book .body{
+  display: flex;
+  justify-content: space-between;
+  height: 515px;
+}
+
+.book .body .book-left{
+  width: 42%;
+  height: 93%;
+}
+
+.book .book-left p{
+  margin-top: 35px;
+  width: 93%;
+  line-height: 28px;
+  
+}
+
+.book .book-left .book-btn{
+  margin-top: 35px;
+  max-width: 50%;
+  height: 14%;
+  color: white;
+  background-color: black;
+}
+
+.book .book-right img{
+  
 }
