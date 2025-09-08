@@ -21,7 +21,7 @@ body {
 }
 
 .text{
-  font-size: 1rem;
+  font-size: 2rem;
 }
 
 a {
@@ -30,6 +30,7 @@ a {
 }
 
 .cta-btn {
+  display: inline-block;
   border: 1px solid black;
   display: flex;
   align-items: center;
@@ -89,7 +90,7 @@ header .cta-btn-group .header-cta-btn {
 }
 
 .book .body .book-left{
-  width: 42%;
+  width: 41%;
   height: 93%;
 }
 
@@ -109,5 +110,5 @@ header .cta-btn-group .header-cta-btn {
 }
 
 .book .book-right img{
-  
+  object-fit: cover;
 }
