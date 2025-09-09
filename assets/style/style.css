@@ -20,6 +20,17 @@ body {
   line-height: 70px;
 }
 
+.heading-lv2{
+  font-weight: 500;
+  font-size: 4rem;
+  line-height: 70px;
+}
+
+.heading-lv3{
+  font-weight: 500;
+  font-size: 3rem;
+}
+
 .text{
   font-size: 2rem;
 }
@@ -111,4 +122,129 @@ header .cta-btn-group .header-cta-btn {
 
 .book .book-right img{
   object-fit: cover;
+}
+
+/* ============================ partners ============================ */
+
+.partners{
+  margin-top: 70px;
+}
+
+.partners .body{
+  display: flex;
+  justify-content: space-between;
+}
+
+.partners .hubspot {
+  display: flex;
+  /* position: relative; */
+}
+
+.partners .hubspot .hubspot-logo-icon{
+  margin-left: -55px;
+}
+
+/* ======================= services top =========================== */
+
+.services-heading {
+  margin-top: 120px;
+}
+
+.services-heading .body {
+  display: flex;
+}
+
+.services-heading .heading-lv2 {
+  background-color: #B9FF66;
+  border-radius: 10px;
+  padding: 0px 5px;
+}
+
+.services-heading .text{
+  margin-left: 47px;
+  width: 650px;
+  line-height: 30px;
+}
+
+/* ===================== services block ========================== */
+
+.service-blocks{
+  margin-top: 100px;
+}
+
+.service-blocks .body .twin-blocks{
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.service-blocks .body .twin-element{
+  display: flex;
+  background-color: #F3F3F3;
+  border: 3px solid #7D7E83;
+  width: 48%;
+  padding: 50px;
+  border-radius: 40px;
+}
+
+.service-blocks .body .twin-element.type2{
+  background-color: #B9FF66;
+}
+
+.service-blocks .body .twin-element.type3{
+  background-color: #191A23;
+}
+
+.service-blocks .twin-element .services-h3{
+  display: inline-block;
+  border-radius: 10px;
+  padding: 5px 5px;
+}
+
+.service-blocks .twin-element .services-h3.green{
+  background-color: #B9FF66;
+}
+
+.service-blocks .twin-element .services-h3.white{
+  background-color: white;
+}
+
+.service-blocks .twin-element{
+  display: flex;
+  justify-content: space-between;
+}
+
+.service-blocks .twin-element .learn-more{
+  display: flex;
+  align-items: center;
+}
+
+.service-blocks .twin-element .block-left{
+  width: 40%;
+}
+
+
+.service-blocks .twin-element .block-left .learn-more{
+  margin-top: 93px;
+}
+
+.service-blocks .twin-element .learn-more .pointer-cta{
+  border-radius: 50%;
+  padding: 5px;
+}
+
+.service-blocks .twin-element .learn-more .pointer-cta.green{
+  background-color: #191A23;
+}
+
+.service-blocks .twin-element .learn-more .pointer-cta.white{
+  background-color: white;
+}
+
+.service-blocks .twin-element .learn-more .more{
+  margin-left: 15px;
+}
+
+.service-blocks .twin-element .learn-more .more.white{
+  color: white;
 }
