@@ -14,6 +14,12 @@ body {
   font-size: 1.6rem;
 }
 
+:root {
+  --lime: #B9FF66;
+  --dark: #191A23;
+  --whitish-gray: #F3F3F3;
+}
+
 .heading-lv1{
   font-weight: 500;
   font-size: 6rem;
@@ -155,7 +161,7 @@ header .cta-btn-group .header-cta-btn {
 }
 
 .services-heading .heading-lv2 {
-  background-color: #B9FF66;
+  background-color: var(--lime);
   border-radius: 10px;
   padding: 0px 5px;
 }
@@ -180,7 +186,7 @@ header .cta-btn-group .header-cta-btn {
 
 .service-blocks .body .twin-element{
   display: flex;
-  background-color: #F3F3F3;
+  background-color: var(--whitish-gray);
   border: 3px solid #7D7E83;
   width: 48%;
   padding: 50px;
@@ -195,11 +201,11 @@ header .cta-btn-group .header-cta-btn {
 
 
 .service-blocks .body .twin-element.type2{
-  background-color: #B9FF66;
+  background-color: var(--lime);
 }
 
 .service-blocks .body .twin-element.type3{
-  background-color: #191A23;
+  background-color: var(--dark)
 }
 
 .service-blocks .twin-element .services-h3{
@@ -209,7 +215,7 @@ header .cta-btn-group .header-cta-btn {
 }
 
 .service-blocks .twin-element .services-h3.green{
-  background-color: #B9FF66;
+  background-color: var(--lime)
 }
 
 .service-blocks .twin-element .services-h3.white{
@@ -241,7 +247,7 @@ header .cta-btn-group .header-cta-btn {
 }
 
 .service-blocks .twin-element .learn-more .pointer-cta.green{
-  background-color: #191A23;
+  background-color: var(--dark)
 }
 
 .service-blocks .twin-element .learn-more .pointer-cta.white{
@@ -254,4 +260,95 @@ header .cta-btn-group .header-cta-btn {
 
 .service-blocks .twin-element .learn-more .more.white{
   color: white;
+}
+
+/* ===================== things happen ====================== */
+
+.things-happen{
+  margin-top: 100px;
+}
+
+.things-happen .body{
+  border-radius: 40px;
+  background-color: var(--whitish-gray);
+  display: flex;
+  justify-content: space-between;
+}
+
+.things-happen .body .left-thing{
+  width: 40%;
+  margin-left: 60px;
+}
+
+.things-happen .body .left-thing .heading-lv3{
+  margin-top: 60px;
+}
+
+.things-happen .body .left-thing .text{
+  margin-top: 26px;
+}
+
+.things-happen .body .left-thing .cta-btn{
+  margin-top: 26px;
+  display: inline-block;
+  background-color: var(--dark);
+  color: white;
+  padding: 20px 35px;
+}
+
+.things-happen .body .right-thing{
+  object-fit: cover;
+}
+
+/* ============== case studies heading ================*/
+
+.case-studies-heading{
+  margin-top: 164px;
+}
+
+.case-studies-heading .body{
+  display: flex;
+}
+
+.case-studies-heading .body .heading-lv2{
+  background-color: var(--lime);
+  border-radius: 10px;
+  padding: 0px 7px;
+}
+
+.case-studies-heading .body .text{
+  margin-left: 47px;
+  display: inline-block;
+  width: 47%;
+  line-height: 30px;
+}
+
+/* =============== case studies body ================= */
+
+.case-studies-body{
+  margin-top: 80px;
+}
+
+.case-studies-body .body{
+  display: flex;
+  padding: 70px 60px;
+  background-color: var(--dark);
+  gap: 90px;
+  border-radius: 40px;
+}
+
+.case-studies-body .body .case-study{
+  width: 24%;
+  color: white;
+  line-height: 25px;
+}
+
+.case-studies-body .body .case-study .learn-more{
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+}
+
+.case-studies-body .case-study .learn-more .more{
+  color: var(--lime);
 }
