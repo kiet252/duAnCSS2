@@ -37,8 +37,14 @@ body {
   font-size: 3rem;
 }
 
+.heading-lv4{
+  font-weight: 500;
+  font-size: 2rem;
+}
+
 .text {
   font-size: 1.6rem;
+  line-height: 20px;
 }
 
 a {
@@ -405,4 +411,63 @@ header .cta-btn-group .header-cta-btn {
   margin-left: auto;
   object-fit: cover;
   cursor: pointer;
+}
+
+/* ==================== team ======================== */
+
+.team{
+  margin-top: 80px;
+}
+
+.team .set-of-team-block{
+  display: flex;
+  justify-content: space-between;
+}
+
+.team .set-of-team-block.second-block{
+  margin-top: 50px;
+}
+
+.team .team-block{
+  border: 1px solid #191a23;
+  box-shadow: 0px 6px 1px 0px rgba(0, 0, 0, 1);
+  -webkit-box-shadow: 0px 6px 1px 0px rgba(0, 0, 0, 1);
+  -moz-box-shadow: 0px 6px 1px 0px rgba(0, 0, 0, 1);
+  padding: 40px 35px;
+  width: 28%;
+  border-radius: 40px;
+}
+
+.team .team-block .member{
+  display: flex;
+}
+
+.team .team-block .member .avatar{
+  border-radius: 50%;
+  box-shadow: 5px 5px 0px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 5px 5px 0px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 5px 5px 0px 0px rgba(0,0,0,0.75);
+}
+
+.team .team-block .member .desc{
+  display: flex;
+  flex-direction: column;
+  align-self: flex-end;
+  margin-left: 20px;
+}
+
+.team .team-block .member .lkdin, .team .team-block .member .lkdin img{
+  width: 34px;
+  height: 34px;
+  margin-left: auto;
+  border-radius: 50%;
+}
+
+.team .team-block .line{
+  width: 100%;
+  margin-top: 18px;
+}
+
+.team .team-block .text{
+  margin-top: 10px;
 }
