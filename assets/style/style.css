@@ -37,7 +37,7 @@ body {
   font-size: 3rem;
 }
 
-.heading-lv4{
+.heading-lv4 {
   font-weight: 500;
   font-size: 2rem;
 }
@@ -96,7 +96,7 @@ header .body {
   justify-content: space-between;
   padding: 30px 0px;
   align-items: center;
-  z-index: 1;
+  z-index: 1000;
   background-color: #fff;
 }
 
@@ -415,20 +415,20 @@ header .cta-btn-group .header-cta-btn {
 
 /* ==================== team ======================== */
 
-.team{
+.team {
   margin-top: 80px;
 }
 
-.team .set-of-team-block{
+.team .set-of-team-block {
   display: flex;
   justify-content: space-between;
 }
 
-.team .set-of-team-block.second-block{
+.team .set-of-team-block.second-block {
   margin-top: 50px;
 }
 
-.team .team-block{
+.team .team-block {
   border: 1px solid #191a23;
   box-shadow: 0px 6px 1px 0px rgba(0, 0, 0, 1);
   -webkit-box-shadow: 0px 6px 1px 0px rgba(0, 0, 0, 1);
@@ -438,36 +438,110 @@ header .cta-btn-group .header-cta-btn {
   border-radius: 40px;
 }
 
-.team .team-block .member{
+.team .team-block .member {
   display: flex;
 }
 
-.team .team-block .member .avatar{
+.team .team-block .member .avatar {
   border-radius: 50%;
-  box-shadow: 5px 5px 0px 0px rgba(0,0,0,0.75);
--webkit-box-shadow: 5px 5px 0px 0px rgba(0,0,0,0.75);
--moz-box-shadow: 5px 5px 0px 0px rgba(0,0,0,0.75);
+  box-shadow: 5px 5px 0px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 5px 5px 0px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 5px 5px 0px 0px rgba(0, 0, 0, 0.75);
 }
 
-.team .team-block .member .desc{
+.team .team-block .member .desc {
   display: flex;
   flex-direction: column;
   align-self: flex-end;
   margin-left: 20px;
 }
 
-.team .team-block .member .lkdin, .team .team-block .member .lkdin img{
+.team .team-block .member .lkdin,
+.team .team-block .member .lkdin img {
   width: 34px;
   height: 34px;
   margin-left: auto;
   border-radius: 50%;
 }
 
-.team .team-block .line{
+.team .team-block .line {
   width: 100%;
   margin-top: 18px;
 }
 
-.team .team-block .text{
+.team .team-block .text {
   margin-top: 10px;
+}
+
+/* ========================== testimonials ========================== */
+
+.testimonials {
+  margin-top: 80px;
+}
+
+.testimonials .body {
+  height: 625px;
+  background-color: black;
+  border-radius: 40px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.testimonials .testimonials-list {
+  display: flex;
+  gap: 50px;
+  margin-top: 84px;
+}
+
+.testimonials .testimonials-list .testimonial-block {
+  color: white;
+  flex-shrink: 0;
+}
+
+.testimonials .testimonials-list .testimonial-block .text {
+  border: 2px solid var(--lime);
+  border-radius: 40px;
+  padding: 20px 40px 20px 30px;
+}
+
+.testimonials .testimonials-list .testimonial-block .desc {
+  margin-top: 20px;
+  margin-left: 80px;
+}
+
+.testimonials .testimonial-block .desc .name {
+  color: var(--lime);
+  font-style: bold;
+}
+
+.testimonials .cta-bar {
+  align-self: center;
+  display: flex;
+  width: 36%;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 124px;
+}
+
+.testimonials .cta-btn-group {
+  margin-top: 124px;
+  display: flex;
+  justify-content: space-between;
+  width: 40%;
+}
+
+.testimonials .cta-bar .arrow {
+  width: 24px;
+  height: 24px;
+  align-self: flex-end;
+  cursor: pointer;
+}
+
+.testimonials .cta-bar .arrow img {
+  object-fit: cover;
+}
+
+.testimonials .cta-bar .cta-btn-star {
+  cursor: pointer;
 }
