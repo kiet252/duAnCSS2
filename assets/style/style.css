@@ -47,6 +47,15 @@ body {
   line-height: 20px;
 }
 
+.textable{
+  border-radius: 15px;
+  border: 2px solid #0F0F0F;
+  background-color: white;
+  color: #D2D2D2;
+  padding: 18px 30px;
+  cursor: text;
+}
+
 a {
   text-decoration: none;
   color: black;
@@ -545,3 +554,62 @@ header .cta-btn-group .header-cta-btn {
 .testimonials .cta-bar .cta-btn-star {
   cursor: pointer;
 }
+
+/* ======================== contact us ================================== */
+
+.contact-us{
+  margin-top: 80px;
+}
+
+.contact-us .body{
+  background-color: #F3F3F3;
+  border-radius: 40px;
+  display: flex;
+  padding: 60px 100px 80px;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+.contact-us .body .illustration{
+  object-fit: cover;
+  margin-right: -400px;
+}
+
+.contact-us .interactive{
+  width: 45%;
+}
+
+.contact-us .interactive .radio-btns{
+  display: flex;
+  width: 50%;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.contact-us .interactive .radio-box{
+  display: flex;
+}
+
+.contact-us .interactive .radio-box p{
+  margin-left: 10px;
+}
+
+.contact-us .interactive .radio-box img{
+  cursor: pointer;
+}
+
+.contact-us .body .textable{
+  margin-bottom: 30px;
+}
+
+.contact-us .body .message-box .textable{
+  height: 257px;
+}
+
+.contact-us .body .cta-btn{
+  background-color: #191A23;
+  color: #E2E2E3;
+  height: 68px;
+  cursor: pointer;
+}
+
