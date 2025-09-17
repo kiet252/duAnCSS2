@@ -68,6 +68,7 @@ a {
   align-items: center;
   justify-content: center;
   border-radius: 10px;
+  cursor: pointer;
 }
 
 .main-content {
@@ -626,3 +627,93 @@ header .cta-btn-group .header-cta-btn {
   cursor: pointer;
 }
 
+/* =================================== footer ============================================= */
+
+.foot{
+  margin-top: 140px;
+  color: white;
+}
+
+.foot a{
+  color: white;
+  text-decoration: underline;
+}
+
+.foot .body{
+  background-color: #191A23;
+  border-radius: 40px 40px 0px 0px;
+  padding: 55px 60px 50px;
+  height: 514px;
+}
+
+.foot .footer-top .contact-top{
+  display: flex;
+  justify-content: space-between;
+}
+
+.foot .footer-top .contact-top .contact-links{
+  width: 45%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.foot .footer-top .contact-top .social-media-box{
+  width: 11%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.foot .footer-top .contact-bottom{
+  margin-top: 66px;
+  display: flex;
+  height: 185px;
+  justify-content: space-between;
+}
+
+.foot .contact-bottom .text{
+  margin-top: 20px;
+}
+
+.foot .contact-bottom .text.contact-us{
+  color: black;
+  background-color: var(--lime);
+  border-radius: 5px;
+  display: inline-block;
+  padding: 0px 5px;
+  font-weight: bold;
+}
+
+.foot .contact-bottom .send-email{
+  display: flex;
+  justify-content: space-between;
+  padding: 58px 40px;
+  background-color: #292A32;
+  border-radius: 5px;
+  width: 57%;
+}
+
+.foot .contact-bottom .send-email .textable{
+  padding: 25px 30px;
+  background-color: #292A32;
+  border: 2px solid #59626E;
+  width: 55%;
+}
+
+.foot .contact-bottom .send-email .cta-btn{
+  width: 40%;
+  background-color: var(--lime);
+  color: black;
+}
+
+.foot .body .copyright{
+  margin-top: 50px;
+  height: 78px;
+  display: flex;
+  align-items: flex-end;
+  border-top: 3px solid #59626E;
+}
+
+.foot .body .copyright .copyright-desc{
+  display: flex;
+  gap: 40px;
+}
